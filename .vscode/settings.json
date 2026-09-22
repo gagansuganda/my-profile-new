@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^php verify_core\\.php$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /Users/gagans/dev/my-profile-release-v1\\.0\\.0 && php verify_core\\.php$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
